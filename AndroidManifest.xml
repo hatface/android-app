@@ -37,6 +37,7 @@
 		<activity android:name=".ui.UserFriend" android:theme="@style/Theme.ZoomLight" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
 		<activity android:name=".ui.ImageDialog" android:theme="@style/Theme.HalfTranslucent" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
 		<activity android:name=".ui.ImageZoomDialog" android:theme="@style/Theme.ZoomLight.Fullscreen" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
+		<activity android:name=".ui.ImageZoomDialog1" android:theme="@style/Theme.ZoomLight.Fullscreen" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
 		<receiver android:name=".ui.BroadCast">
             <intent-filter>
                 <action android:name="net.oschina.app.action.APPWIDGET_UPDATE" />
